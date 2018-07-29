@@ -4,16 +4,16 @@ import cv2
 import time
 import numpy as np
 #Video file importing
-vidcap = cv2.VideoCapture('Happy Family.mkv')
+vidcap = cv2.VideoCapture('/path/to/video')
 count = 0
 success = True
 firstLine = 1
 # width and heigth of resized frames
-w = 80
-h = 45
+w = 150
+h = 84
 z = 0
-nFrameforLine = 60
-oneFrameEvery = 24
+nFrameforLine = 80
+oneFrameEvery = 12
 success,image = vidcap.read()
 while success:
 	if(count % oneFrameEvery == 0):
