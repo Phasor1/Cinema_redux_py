@@ -9,3 +9,7 @@ With pip:
 ```sh
 $ pip install opencv-python
 ```
+### Run
+```sh
+$ python redux.py
+```
